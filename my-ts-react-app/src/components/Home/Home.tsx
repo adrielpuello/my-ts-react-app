@@ -3,7 +3,7 @@ import React from "react";
 const Home: React.FC = () => {
 
     return (
-        <div>
+        <div className="main-text">
             <h1>Adriel Puello</h1>
             <p>Hello! I'm a passionate software engineer with a diverse skill set that spans the realms of web development. My journey through the world of technology has led me to become proficient in several key areas, and I thrive at the intersection of innovation and user-centric design.
 

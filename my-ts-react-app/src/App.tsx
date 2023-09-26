@@ -19,7 +19,8 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className={`App ${isDarkModeEnabled ? 'dark-mode-app' : ''}`}>
+    <div className="main-container">
+      <div className={`App ${isDarkModeEnabled ? 'dark-mode-app' : ''}`}>
       <Navbar activePage={activePage} 
       onNavItemClick={handleNavItemClick} 
       onDarkModeToggle={handleDarkModeToggle}
@@ -29,6 +30,8 @@ const App: React.FC = () => {
       {activePage === 'portfolio' && <Portfolio />}
       {activePage === 'about' && <About />}
     </div>
+  </div>
+    
   );
 };
 

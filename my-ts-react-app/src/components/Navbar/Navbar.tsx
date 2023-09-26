@@ -12,20 +12,23 @@ const Navbar: React.FC<NavbarProps> = ({ activePage, onNavItemClick, onDarkModeT
     <nav className={`navbar ${isDarkModeEnabled ? 'dark-mode' : ''}`}>
       <div className="navbar-left">
         <ul className="navbar-list">
+          <li className="navbar-item">
+            <p className='logo'>AP</p>
+          </li>
           <li className={`navbar-item ${activePage === 'home' ? 'active' : ''}`}>
-            <button onClick={() => onNavItemClick('home')}>Home</button>
+            <button onClick={() => onNavItemClick('home')}>HOME</button>
           </li>
           <li className={`navbar-item ${activePage === 'portfolio' ? 'active' : ''}`}>
-            <button onClick={() => onNavItemClick('portfolio')}>Portfolio</button>
+            <button onClick={() => onNavItemClick('portfolio')}>PORTFOLIO</button>
           </li>
           <li className={`navbar-item ${activePage === 'about' ? 'active' : ''}`}>
-            <button onClick={() => onNavItemClick('about')}>About</button>
+            <button onClick={() => onNavItemClick('about')}>ABOUT</button>
           </li>
         </ul>
       </div>
       <div className="navbar-right">
         <button onClick={onDarkModeToggle}>
-          {isDarkModeEnabled ? 'Light Mode' : 'Dark Mode'}
+          {isDarkModeEnabled ? 'LIGHT THEME' : 'DARK THEME'}
         </button>
       </div>
     </nav>
