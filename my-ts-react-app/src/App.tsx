@@ -8,7 +8,7 @@ import './App.css';
 
 const App: React.FC = () => {
   const [activePage, setActivePage] = useState<string>('home');
-  const [isDarkModeEnabled, setIsDarkModeEnabled] = useState<boolean>(false); // Initialize dark mode state
+  const [isDarkModeEnabled, setIsDarkModeEnabled] = useState<boolean>(true); // Initialize dark mode state
 
   const handleNavItemClick = (page: string) => {
     setActivePage(page);
