@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+
+/* Light Mode Styles */
+body {
+  background-color: #ffffff;
+  color: #333333;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Dark Mode Styles */
+.dark-mode-app {
+  background-color: #333333;
+  color: #ffffff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.dark-mode-app .navbar {
+  background-color: #111010;
+  color: #ffffff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
+  background-color: #c71c16;
+  color: #ffffff;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between; /* Horizontally spread out the children */
+  align-items: center; /* Vertically center the children */
+  padding: 10px;
+}
+
+.navbar-list {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar-item {
+  margin-right: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-item button{
+  background-color: transparent;
+  color: inherit;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.navbar-right button {
+  background-color: transparent;
+  color: inherit;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
 }
