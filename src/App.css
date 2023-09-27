@@ -7,6 +7,12 @@
   min-width: fit-content;
 }
 
+@media (max-width: 768px) {
+  body {
+    zoom: 0.8; /* Adjust the zoom level as needed */
+  }
+}
+
 .App {
   background-color: #ffffff;
   color: #111010;
