@@ -11,7 +11,7 @@
   background-color: #ffffff;
   color: #111010;
   min-width: fit-content;
-  height: 1000vh;
+  height: 400vh;
 }
 
 /* Dark Mode Styles */
@@ -119,7 +119,7 @@ h2 {
 
 .image-container{
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
 }
 
 .about-image-1 {
