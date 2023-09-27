@@ -1,21 +1,17 @@
 
 /* Light Mode Styles */
+
 .main-container {
-  margin: auto;
-  height: auto;
-  width: auto;
   background-color: #ffffff;
   color: #111010;
+  min-width: fit-content;
 }
 
-html {
+.App {
   background-color: #ffffff;
   color: #111010;
-}
-
-body {
-  background-color: #ffffff;
-  color: #111010;
+  min-width: fit-content;
+  height: 1000vh;
 }
 
 /* Dark Mode Styles */
