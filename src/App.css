@@ -99,9 +99,12 @@ h2 {
 /* Home Styles */
 
 .main-text {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  flex-wrap: wrap;
   background-color: transparent;
   color: inherit;
-  width: 600px;
   margin-left: 100px;
   padding-left: 50px;
 }
