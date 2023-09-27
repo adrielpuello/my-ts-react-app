@@ -2,11 +2,13 @@ import React from "react";
 
 const Portfolio: React.FC = () => {
 
+    const redirectToFBOC = () => {
+        window.open('https://fboc.vercel.app/', '_blank')
+      };
+
     return (
         <div className="project-container">
-            <div className="main-text">
-                <h1>Coming Soon...</h1>
-            </div>
+            <button className='portfolio-button' id='fboc' onClick={redirectToFBOC}></button>
             <div className="footer"></div>
             <div className="footer"></div>
             <div className="footer"></div>
