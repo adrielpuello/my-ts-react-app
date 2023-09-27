@@ -20,17 +20,22 @@ const App: React.FC = () => {
 
   return (
     <div className="main-container">
+      <head>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+      </head>
       <div className={`App ${isDarkModeEnabled ? 'dark-mode-app' : ''}`}>
-      <Navbar activePage={activePage} 
-      onNavItemClick={handleNavItemClick} 
-      onDarkModeToggle={handleDarkModeToggle}
-      isDarkModeEnabled={isDarkModeEnabled}
-      />
-      {activePage === 'home' && <Home />}
-      {activePage === 'portfolio' && <Portfolio />}
-      {activePage === 'about' && <About />}
+        <Navbar activePage={activePage} 
+        onNavItemClick={handleNavItemClick} 
+        onDarkModeToggle={handleDarkModeToggle}
+        isDarkModeEnabled={isDarkModeEnabled}
+        />
+        {activePage === 'home' && <Home />}
+        {activePage === 'portfolio' && <Portfolio />}
+        {activePage === 'about' && <About />}
+      </div>
     </div>
-  </div>
+    
     
   );
 };
