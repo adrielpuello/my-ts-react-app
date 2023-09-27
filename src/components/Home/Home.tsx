@@ -5,7 +5,7 @@ const Home: React.FC = () => {
     return (
         <div className="main-text">
             <h1>Hey there, I'm AJ 👋🏽</h1>
-                <p>Hello! I'm a passionate software engineer with a diverse skill set that spans the realms of web development. My journey through the world of technology has led me to become proficient in several key areas, and I thrive at the intersection of innovation and user-centric design.
+                <p>I'm a passionate software engineer with a diverse skill set that spans the realms of web development. My journey through the world of technology has led me to become proficient in several key areas, and I thrive at the intersection of innovation and user-centric design.
 
                 My primary expertise lies in React, where I've honed my skills in crafting responsive, interactive, and high-performance user interfaces. With a strong foundation in JavaScript, I ensure robust code quality and maintainability while leveraging the power of static typing.
 
