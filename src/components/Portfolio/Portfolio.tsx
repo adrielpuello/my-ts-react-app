@@ -8,7 +8,7 @@ const Portfolio: React.FC = () => {
 
     return (
         <div className="project-container">
-            <button className='portfolio-button' id='fboc' onClick={redirectToFBOC}></button>
+            <button className='portfolio-button' id='fboc' onClick={redirectToFBOC}>Full Bag of Chips - E-Commerce Website</button>
             <div className="footer"></div>
             <div className="footer"></div>
             <div className="footer"></div>

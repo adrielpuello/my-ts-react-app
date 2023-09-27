@@ -132,6 +132,12 @@ h2 {
   flex-wrap: wrap;
 }
 
+@media (max-width: 768px) {
+  .image-container {
+    display: none;
+  }
+}
+
 .about-image-1 {
   width: auto;
   height: auto;
@@ -198,9 +204,19 @@ h2 {
 
 #fboc {
     background-image: url('./components/Portfolio/Images/full-bag.png');
-    background-size: 250px;
+    background-size: cover;
+    color: transparent;
     width: 250px;
     height: 250px;
 }
 
+@media (max-width: 768px) {
+  #fboc {
+    background-image: none;
+    background-color: transparent;
+    color: inherit;
+    width: 300px;
+    height: 50px;
+  }
+}
 
